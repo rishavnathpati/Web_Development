@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo img {
+  width: 30%;
+  border: 3px solid white;
+  border-radius: 50px;
+}
+
+.navbar {
+  display: flex;
+}
+
+.nav-list {
+  width: 50%;
+  background-color: black;
+  display: flex;
+  align-items: center;
+}
+
+.nav-list li {
+    list-style: none;
+}
+
+.nav-list li a {
+    text-decoration: none;
+}
+
+.rightNav {
+  background-color: blueviolet;
+  width: 50%;
+  text-align: right;
+}
