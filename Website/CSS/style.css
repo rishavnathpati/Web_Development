@@ -18,6 +18,11 @@
 
 .navbar {
   display: flex;
+  align-items: center;
+  justify-content: center;
+  position: sticky;
+  top:0;
+  cursor: pointer;
 }
 
 .nav-list {
@@ -52,7 +57,42 @@
 }
 
 .background {
-  background: rgba(0, 0, 0, 0.7) url("../img/bg.jpg");
+  background: rgba(0, 0, 0, 0.65) url("../img/bg.jpg");
   background-size: cover;
   background-blend-mode: darken;
+}
+
+.box-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  max-width: 50%;
+  margin: 0 auto;
+}
+
+.secondHalf img {
+  width: 60%;
+  padding: 4x 0;
+  border: 4px solid white;
+  border-radius: 150px;
+  display: block;
+  margin: 0 auto;
+  height: 80%;
+}
+
+.firstSection {
+  height: 100vh;
+}
+
+.firstHalf {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.secondHalf {
+  width: 30%;
 }
